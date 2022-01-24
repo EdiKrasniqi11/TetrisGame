@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <title>Functioning Tetris Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="korniza">
+    <div id="score"></div>
+    <div id="main">
+        <canvas id="tetris" width="360" height="660"></canvas>
+        <div>
+        <button id="resetButton" onclick="gameReset()">Restart</button>
+            <button id="themeButtonPlay" onclick="audioPlay(theme)">Play</button>
+            <button id="themeButtonStop" onclick="audioStop(theme)">Mute</button>
+        </div>
+    </div>
+    
+    <div id="tetrisAlert"></div>
+    <script src="tetris.js"></script>
+</body>
+</html>
